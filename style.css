@@ -49,12 +49,12 @@ input, button{
 .completed-task__task-input, .completed-task__task-name{
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .to-do-task__task-input, .completed-task__task-input, .add-items__task-input {
   margin: 0;
-  width: 226px
+  width: 226px;
   font-size: 18px;
   line-height: 18px;
   height: 21px;
@@ -141,13 +141,13 @@ input, button{
 
 /* Completed */
 .completed-task__task-name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .to-do-task__task-input, .completed-task__task-input{
-  display: none
+  display: none;
 }
 
 .to-do__task_edit-mode .to-do-task__task-input, .completed__task_edit-mode .completed-task__task-input {
