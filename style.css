@@ -1,13 +1,13 @@
 /* Basic Style */
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input, button{
-  outline:none;
+  outline: none;
 }
 .page {
   background-color: #f8f8f8;
@@ -133,14 +133,14 @@ input, button{
 
 /* Edit Task */
 .to-do-task__task-input, .completed-task__task-input{
-  display:none
+  display: none
 }
 
 .to-do__task_edit-mode .to-do-task__task-input, .completed__task_edit-mode .completed-task__task-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .to-do__task_edit-mode .to-do-task__task-name, .completed__task_edit-mode .completed-task__task-name  {
-  display:none;
+  display: none;
 }
